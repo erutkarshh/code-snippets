@@ -110,7 +110,7 @@ class SentimentAnalyser:
 
 # Execution
 obj = SentimentAnalyser()
-print(obj.get_sentiments("Sachin Tendulkar is not a great player"))
+print(obj.get_sentiments("Sachin Tendulkar is a great player"))
 
 # sentiment analysis of stocks from News API - https://newsapi.org
 #print(obj.analyse_sentiments("INFY", "Infosys", "IT"))
